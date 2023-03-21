@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:ital,wght@0,300;1,300&display=swap');
+
+/* General */
+
+html {
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/* Nav and Forms */
+
+.nav {
+    
+}
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+textarea {
+    overflow: auto;
+}
+
+/* Main */
+
+main {
+    position: relative;
+    top: 9.5em;
+}
+
+h1 {
+    text-shadow: 1px 0.5px black;
+}
+
+
+#time {
+    font-size: 7em;
+    font-family: 'Open Sans';
+    font-weight: 450;
+    bottom: 1em;
+}
+
+#greeting {
+    font-size: 5em;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    bottom: 1em;
+}
+
+#date {
+    position: relative;
+    font-weight: 300;
+    font-size: 3em;
+    bottom: 1em;
+}
+
+#application_bar {
+    list-style: none;
+}
+
+.appImg {
+    object-fit: contain;
+}
+
+
